@@ -24,7 +24,7 @@ botones.forEach(boton =>{
         try{
             let resultado = eval(pantalla.textContent);
 
-            resultado = resultado.toString(9);
+            resultado = resultado.toString();
 
         if (resultado.length > 9) {
         resultado = resultado.slice(0, 9);
