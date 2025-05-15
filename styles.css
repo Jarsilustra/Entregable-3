@@ -7,7 +7,7 @@
 
 body{
   min-height: 100vh;
-  background-color: #8ecae6;
+  background-color: #252525;
   display: grid;
   place-items: center;
 }
@@ -28,7 +28,7 @@ body{
   background-color: #80ed99;
   color: #000;
   padding: 1.5rem;
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: right;
   border-radius: 15px;
   margin-bottom: 1rem;
@@ -38,6 +38,8 @@ body{
 
 .btn{
   background-color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
   border: 0;
   padding: 1rem .5rem;
   display: flex;
